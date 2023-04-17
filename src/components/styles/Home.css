@@ -1,0 +1,230 @@
+.img-gif{
+    height: 72vh;
+    width: 97vh;
+    margin-top: 12vh;
+  }
+  .bg-clr{
+    background-color: rgb(234, 242, 250);
+  }
+  .word {
+    margin: auto;
+    text-align: center;
+    padding-left: 20vh;
+    font-weight: 700;
+    font-size: 5vh;
+  }
+  #body{
+    background-color: rgb(234, 242, 250);
+  }
+  .txt-clr{
+    color: rgba(7, 56, 96, 0.769)
+  }
+  .txt-large{
+    font-weight: 700;
+    font-size: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #home{
+    height: 15vh;
+    width: 15vh;
+    background-color: rgb(234, 242, 250);
+  }
+  .png {
+    height: 15vh;
+    width: 15vh;
+    margin-left: 5vh;
+  }
+  .tag {
+    margin: auto;
+    margin-left: 6vh;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    color: rgb(191, 54, 54);
+    margin-top: 2vh;
+  }
+  label {
+    margin-left: 5vh;
+    font-size: 4vh;
+    color: rgba(0, 39, 70, 0.916);
+  }
+  #h1 {
+    margin-top: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+  }
+
+  .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 60px;
+  margin-top: 8vh;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.bg-green{
+  background-color: rgba(1, 29, 53, 0.975);
+  color: aliceblue;
+}
+.bg-clr-dark {
+  background-color: #033f65e0;
+}
+.button-green {
+  background-color: #19d800bd;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+
+.button-blue {
+  background-color: #2e60c6c8;
+  border: none;
+  border-radius: 40px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+
+.contain {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 40px 0;
+}
+
+.contain .card {
+	position: sticky;
+	width: 350px;
+	height: 350px;
+	background: rgba(255, 255, 255, 0.014);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(20px);
+}
+
+.contain .card .content {
+	position: static;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.8s;
+}
+
+.contain .card:hover .content {
+	transform: translateY(20px);
+}
+
+.contain .card .content .imgBx {
+	position: -webkit-sticky;
+	width: 100px;
+	height: 140px;
+	overflow: auto;
+}
+
+.contain .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60%;
+  border-radius: 80px;
+}
+
+.contain .card .content .contentBx h3 {
+	color: #b81e1e;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+  font-weight: bolder;
+	font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+  margin-top: 80px;
+	line-height: 1.1em;
+}
+.btn-open {
+  background-color: #f4b71dc8;
+  border: none;
+  border-radius: 35px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+.info:hover {
+  transform: translateY(-20px);
+  transition: 0.8s;
+}
+.btn-free {
+  background-color: #fe6e00de;
+  border: none;
+  border-radius: 35px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+}
+.btn-free:hover {
+  background-color: #b81e1e;
+  transition: 0.8s;
+}
+.button-white {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 35px;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+}
+.button-white:hover {
+  background-color: #f12c12e0;
+  transition: 0.8s;
+}

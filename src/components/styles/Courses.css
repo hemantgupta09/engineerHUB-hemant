@@ -1,0 +1,13 @@
+.gradient {
+    background: linear-gradient(to bottom, #000066 0%, #009933 100%);
+}
+.img1 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+}
+.input-inner {
+    height: 10vh;
+    border-radius: 20vh;
+    font-size: larger;
+}
